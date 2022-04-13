@@ -90,8 +90,7 @@ fn main() -> Result<()> {
                 \n\
                 [dependencies]\n\
                 {}\n\
-                \n\
-                [workspace]\n",
+                \n",
                 name,
                 version,
                 builder.dependencies().join("\n"),
